@@ -1,0 +1,20 @@
+{{ partial "header.html" . }}
+<span id="sidebar-toggle-span">
+<a href="#" id="sidebar-toggle" data-sidebar-toggle=""><i class="fas fa-bars"></i> navigation</a>
+</span>
+
+{{if .Site.Home.Content }}
+{{.Site.Home.Content}}
+{{else}}
+    <h1>{{.Title}}</h1>
+
+    <ul>
+        {{ range first 10 .Site.Pages }}
+        <li><b>{{ .Title }}</b> | {{ .Date.Format "2006-01-02" }}
+            <br>
+            {{ .Summary }}
+        </li>
+        {{ end }}
+    </ul>
+{{ end }}
+{{ partial "footer.html" . }}

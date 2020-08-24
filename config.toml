@@ -1,0 +1,10 @@
+baseURL = "https://github.com/mand2/mand2.github.io"
+languageCode = "en-us,ko-kr"
+title = "GoRaNee's dev-log"
+
+# Change the default theme to be use when building the site with Hugo
+theme = "learn"
+
+# For search functionality
+[outputs]
+home = [ "HTML", "RSS", "JSON"]

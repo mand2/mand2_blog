@@ -1,0 +1,7 @@
+[submodule "themes/learn"]
+	path = themes/learn
+	url = https://github.com/mand2/hugo-theme-learn.git
+[submodule "public"]
+	path = public
+	url = https://github.com/mand2/mand2.github.io
+	branch = master
