@@ -1,4 +1,4 @@
-[submodule "themes/learn"]
+[submodule "themes/hugo-theme-learn"]
 	path = themes/learn
 	url = https://github.com/mand2/hugo-theme-learn.git
 [submodule "public"]
