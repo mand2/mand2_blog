@@ -1,7 +1,7 @@
 +++
 title = "About"
 date = 2020-08-24T23:23:15+09:00
-weight = 5
+weight = 1
 chapter = true
 pre = "<b>0. </b>"
 +++
