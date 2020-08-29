@@ -9,4 +9,4 @@ pre = "<b>1. </b>"
 ### Chapter 1
 
 # Spring
-{{% children depth="999" %}}
+{{% children depth="2" %}}
