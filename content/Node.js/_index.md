@@ -1,7 +1,7 @@
 +++
 title = "Node.js"
 date = 2020-08-29T19:53:58+09:00
-weight = 20
+weight = 5
 chapter = true
 pre = "<b>4. </b>"
 +++
