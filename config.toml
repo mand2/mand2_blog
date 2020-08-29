@@ -5,13 +5,42 @@ title = "GoRaNee's dev-log"
 # Change the default theme to be use when building the site with Hugo
 theme = "hugo-theme-learn"
 
+[params]
+  description = "goranee's dev-log"
+  author = "mand2"
+
 # For search functionality
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
 
 # taxonomies
 [taxonomies]
-author = "goranee"
 category = "categories"
 tag = "tags"
 series = "series"
+
+# shortcuts
+[[menu.shortcuts]]
+name = "<i class='fab fa-github'></i> Github repo"
+url = "https://github.com/mand2"
+weight = 10
+
+[[menu.shortcuts]]
+name = "<i class='fas fa-bookmark'></i> Categories"
+url = "/categories"
+weight = 20
+
+[[menu.shortcuts]]
+name = "<i class='fas fa-tags'></i> Tags"
+url = "/tags"
+weight = 30
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = true
+    startLevel = 2
