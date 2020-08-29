@@ -8,3 +8,10 @@ theme = "hugo-theme-learn"
 # For search functionality
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
+
+# taxonomies
+[taxonomies]
+author = "goranee"
+category = "categories"
+tag = "tags"
+series = "series"
