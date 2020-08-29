@@ -1,7 +1,7 @@
 +++
 title = "React"
 date = 2020-08-29T20:56:57+09:00
-weight = 25
+weight = 6
 chapter = true
 pre = "<b>5. </b>"
 +++
