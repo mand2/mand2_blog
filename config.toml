@@ -1,9 +1,11 @@
 baseURL = "/"
 languageCode = "ko-kr"
-title = "고라니의 개발일기"
+title = "고라니의 개발일기🦌"
 
 # Change the default theme to be use when building the site with Hugo
 theme = "hugo-theme-learn"
+# google-analytics
+googleAnalytics = "UA-145937348-1"
 
 [params]
   description = "goranee's dev-log"
