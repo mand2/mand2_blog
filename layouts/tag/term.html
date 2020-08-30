@@ -1,0 +1,32 @@
+{{ partial "header.html" . }}
+<span id="sidebar-toggle-span">
+<a href="#" id="sidebar-toggle" data-sidebar-toggle=""><i class="fas fa-bars"></i> navigation</a>
+</span>
+<section>
+    <div class="highlightable">
+        <div id="topics">
+            {{ $taxo := "tags" }}
+            {{ with ($.Site.GetPage (printf "/%s" $taxo)) }}
+                {{ range .Pages }}
+                    {{ if eq .Title $.Title }}
+                    <button class="btn_tags_active" onclick="location.href='{{ .RelPermalink }}'">{{ .Title }}</button>
+
+                    {{ else }}
+                    <button class="btn_tags" onclick="location.href='{{ .RelPermalink }}'">{{ .Title }}</button>
+
+                    {{ end }}
+                {{ end }}
+            {{ end }}
+        </div>
+        <hr>
+
+        {{ range .Pages.ByDate }}
+            <li>
+                <a href="{{ .Permalink }}">{{ .LinkTitle }}</a> |
+                <time>{{ .Date.Format "2006-01-02" }}</time>
+            </li>
+        {{ end }}
+    </div>
+</section>
+
+{{ partial "footer.html" . }}

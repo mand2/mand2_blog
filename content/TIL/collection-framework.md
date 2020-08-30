@@ -52,8 +52,7 @@ Interface로 분리되며, `Iterable`을 상속한다. 컬렉션 프레임워크
 <br>
 구조 간단 정리 
 
-![컬렉션 구조](images/TIL/collection-framework_1.png)
-
+![컬렉션 구조](/images/TIL/collection-framework_1.png)
 <br><br>
 
 [출처](https://postitforhooney.tistory.com/entry/JavaCollection-Java-Collection-Framework%EC%97%90-%EB%8C%80%ED%95%9C-%EC%9D%B4%ED%95%B4%EB%A5%BC-%ED%86%B5%ED%95%B4-Data-Structure-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0) 링크로 들어가면 메서드까지 잘 정리되어 있음. 필요할 때 보자-! [다른 링크](http://tcpschool.com/java/java_collectionFramework_concept)는 학원에서 처음 자바를 배울 때 애용했던 TCP school 페이지임. 이 페이지도 잘 정리되어있다. 

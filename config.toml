@@ -1,6 +1,6 @@
 baseURL = "/"
 languageCode = "ko-kr"
-title = "GoRaNee's dev-log"
+title = "고라니의 개발일기"
 
 # Change the default theme to be use when building the site with Hugo
 theme = "hugo-theme-learn"
@@ -8,6 +8,9 @@ theme = "hugo-theme-learn"
 [params]
   description = "goranee's dev-log"
   author = "mand2"
+  disableInlineCopyToClipBoard = true
+  custom_css = ["css/custom.css"]
+  themeVariant = "mine"
 
 # For search functionality
 [outputs]

@@ -1,0 +1,19 @@
+{{ partial "header.html" . }}
+<span id="sidebar-toggle-span">
+<a href="#" id="sidebar-toggle" data-sidebar-toggle=""><i class="fas fa-bars"></i> navigation</a>
+</span>
+
+<div class="highlightable">
+    <div id="topics">
+        {{ $taxo := "tags" }}
+        {{ with ($.Site.GetPage (printf "/%s" $taxo)) }}
+            {{ range .Pages }}
+            <button class="btn_tags" onclick="location.href='{{ .RelPermalink }}'">{{ .Title }}</button>
+            {{ end }}
+        {{ end }}
+    </div>
+    <hr>
+
+</div>
+
+{{ partial "footer.html" . }}
