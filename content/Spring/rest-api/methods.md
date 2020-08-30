@@ -1,6 +1,6 @@
 ---
 title: "Methods @Get, @Post, Delete, @Put"
-date: 202019-08-19T14:30:56+09:00
+date: 2019-08-19T14:30:56+09:00
 draft: false
 weight: 10
 categories: Rest-API

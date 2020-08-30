@@ -10,7 +10,7 @@
 
     <ul>
         {{ range first 10 .Site.Pages }}
-        <li><b>{{ .Title }}</b> | {{ .Date.Format "2006-01-02" }}
+        <li><b><a href="{{.RelPermalink}}">{{.Title}}</a></b> | {{ .Date.Format "2006-01-02" }}
             <br>
             {{ .Summary }}
         </li>

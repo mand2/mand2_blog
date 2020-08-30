@@ -1,0 +1,18 @@
+{{ partial "header.html" . }}
+<span id="sidebar-toggle-span">
+<a href="#" id="sidebar-toggle" data-sidebar-toggle=""><i class="fas fa-bars"></i> navigation</a>
+</span>
+<section>
+    <div class="highlightable">
+        {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+        <ul id="topics">
+        <b>{{ $name }}</b>
+            {{ range $taxonomy.Pages.ByDate }}
+            <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a> | <time>{{ .Date.Format "2006-01-02" }}</time></li>
+            {{ end }}
+        </ul>
+        {{ end }}
+    </div>
+</section>
+
+{{ partial "footer.html" . }}

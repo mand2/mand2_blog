@@ -1,0 +1,59 @@
+#body .padding {
+    padding: 3rem 18rem;
+}
+
+code, kbd, pre, samp {
+    font-family: "Consolas", "Work Sans", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-size: 92%;
+}
+html body code {
+    border-radius: 2px;
+    white-space: nowrap;
+    color: #1f3025;
+    background: #acccbc;
+    border: 1px solid #acccbc;
+    padding: 2px 5px;
+}
+html body pre {
+    padding: 1rem;
+    margin: 2rem 0;
+    background: #282c34;
+    border: 0;
+    border-radius: 2px;
+    line-height: 1.15;
+}
+html body pre code {
+    color: whitesmoke;
+    background: inherit;
+    white-space: inherit;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+}
+#sidebar #header-wrapper #header {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#body a.highlight, #body a.highlight:hover, #body a.highlight:focus {
+    text-decoration: none;
+    outline: none;
+    outline: 0;
+    /*font-weight: 550;*/
+}
+
+/*html #body section .highlightable #topics button > */
+.btn_tags, .btn_tags_active {
+    border-radius: 3px;
+    box-sizing: border-box;
+    padding: 2px 15px;
+    margin: 5px 2px;
+}
+.btn_tags {
+    background-color: var(--MAIN-LINK-HOVER-BC-color);
+}
+/*html #body section .highlightable #topics button */
+.btn_tags:hover, .btn_tags_active {
+    background-color: var(--MENU-TAG-BG-color);
+}
