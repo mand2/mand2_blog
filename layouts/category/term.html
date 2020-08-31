@@ -5,7 +5,7 @@
 <section>
     <div class="highlightable">
         <div id="topics">
-            {{ $taxo := "tags" }}
+            {{ $taxo := "categories" }}
             {{ with ($.Site.GetPage (printf "/%s" $taxo)) }}
                 {{ range .Pages }}
                     {{ if eq .Title $.Title }}
@@ -21,10 +21,10 @@
         <hr>
 
         {{ range .Pages.ByDate }}
-            <li>
-                <a href="{{ .Permalink }}">{{ .LinkTitle }}</a> |
-                <time>{{ .Date.Format "2006-01-02" }}</time>
-            </li>
+        <li>
+            <a href="{{ .Permalink }}">{{ .LinkTitle }}</a> |
+            <time>{{ .Date.Format "2006-01-02" }}</time>
+        </li>
         {{ end }}
     </div>
 </section>

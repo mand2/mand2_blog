@@ -7,13 +7,16 @@
 {{.Site.Home.Content}}
 {{else}}
     <h1>{{.Title}}</h1>
-
+    <hr>
+<!--    <h2>recently uploaded contents</h2>-->
     <ul>
-        {{ range first 10 .Site.Pages }}
+        {{ range first 10 .Site.RegularPages.ByDate.Reverse  }}
         <li><b><a href="{{.RelPermalink}}">{{.Title}}</a></b> | {{ .Date.Format "2006-01-02" }}
             <br>
-            {{ .Summary }}
+            {{ .Summary }} <a href="{{.RelPermalink}}">read more..</a>
+            <br>
         </li>
+        <br>
         {{ end }}
     </ul>
 {{ end }}

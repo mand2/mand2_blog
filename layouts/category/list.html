@@ -4,10 +4,21 @@
 </span>
 <section>
     <div class="highlightable">
+        <div id="topics">
+            {{ $taxo := "categories" }}
+            {{ with ($.Site.GetPage (printf "/%s" $taxo)) }}
+                {{ range .Pages }}
+                <button class="btn_tags" onclick="location.href='{{ .RelPermalink }}'">{{ .Title }}</button>
+                {{ end }}
+                <button class="btn_tags_active" onclick="location.href='{{ .RelPermalink }}'">ALL</button>
+            {{ end }}
+        </div>
+        <hr>
+
         {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
-        <ul id="topics">
+        <ul>
         <b>{{ $name }}</b>
-            {{ range $taxonomy.Pages.ByDate }}
+            {{ range $taxonomy.Pages.ByDate.Reverse }}
             <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a> | <time>{{ .Date.Format "2006-01-02" }}</time></li>
             {{ end }}
         </ul>
