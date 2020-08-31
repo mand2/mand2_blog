@@ -38,7 +38,9 @@
       {{ end }}
     </style>
     {{ partial "custom-header.html" . }}
-    {{ template "_internal/google_analytics.html" . }}
+    {{ if not .Site.IsServer }}
+      {{ template "_internal/google_analytics.html" . }}
+    {{ end }}
   </head>
   <body class="" data-url="{{ .RelPermalink }}">
     {{ partial "menu.html" . }}
