@@ -1,5 +1,7 @@
 #body .padding {
-    padding: 3rem 18rem;
+    padding: 2rem 3rem;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 code, kbd, pre, samp {
