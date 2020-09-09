@@ -1,11 +1,11 @@
 ---
 title: "Git 커밋 그래프(contribution graph)를 3D로 보는 방법"
 date: 2020-09-09T00:02:15+09:00
+draft: false
 categories: TIL
 tags:
 - Git
 - TIL
-draft: false
 hidden: false
 ---
 
