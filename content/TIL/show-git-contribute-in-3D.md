@@ -6,6 +6,7 @@ tags:
 - Git
 - TIL
 draft: false
+hidden: false
 ---
 
 깃 커밋 그래프를 볼 때마다 색상으로만 판단하기 어려울 때가 있다. 
