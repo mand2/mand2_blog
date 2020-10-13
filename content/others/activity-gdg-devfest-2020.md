@@ -14,7 +14,7 @@ hidden: false
 <br>
 <br>
 
-[![devfest-korea-2020-banner](https://lh6.googleusercontent.com/elqtbPojGvDNA7zgXRayCClhKIVdoyZuvKPgw2LJ49XrpEQAL9yAU_XVLeWLev_qqt5i35mVcNuQRlJ4fG4ADDnngMigovfmgyTQ2UKbvtRoABBFYCk=w1280)](https://sites.google.com/view/devfestkorea2020/%ED%99%88?authuser=0)
+[![devfest-korea-2020-banner](/images/Others/activity-gdg-devfest-2020_1.gif?width=480px)](https://sites.google.com/view/devfestkorea2020/%ED%99%88?authuser=0)
 
 👆👆👆 위 배너를 클릭해서 Devfest 페이지로 이동하기 (배너출처: DevFest Korea 2020)
 
