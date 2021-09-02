@@ -1,7 +1,7 @@
 ---
 title: "[AWS S3] 로컬 디렉토리에 있는 모든 파일 S3로 업로드하기"
 date: 2021-09-02T22:53:31+09:00
-draft: true
+draft: false
 categories: TIL
 tags:
 - TIL
