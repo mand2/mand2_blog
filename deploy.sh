@@ -17,8 +17,11 @@ git add .
 msg_public=`cat $msg_public_file`
 git commit -m "$msg_public"
 
+echo -e "commit public msg"
+
 # Push source and build repos.
 git push
+echo -e "push public msg"
 
 # Come Back up to the Project Root
 cd ..
@@ -30,4 +33,7 @@ git add .
 msg_blog=`cat $msg_blog_file`
 git commit -m "$msg_blog"
 
+echo -e "commit blog msg"
+
 git push
+echo -e "push blog msg"
