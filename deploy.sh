@@ -1,6 +1,6 @@
 #!/bin/bash
-msg_public_file=/d/Hugo/mand2_blog/msg/public.md
-msg_blog_file=/d/Hugo/mand2_blog/msg/blog.md
+msg_public_file=/Users/ymac/IdeaProjects/Hugo/mand2_blog/msg/public.md
+msg_blog_file=/Users/ymac/IdeaProjects/Hugo/mand2_blog/msg/blog.md
 
 
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
